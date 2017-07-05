@@ -13,17 +13,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 14}
+  - {fileID: 15}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1440
     height: 802
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 785, y: 492}
+  m_MaxSize: {x: 16010, y: 14042}
   vertical: 0
-  controlID: 47
+  controlID: 6095
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -32,72 +32,74 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 32
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 259
-    y: 93
-    width: 825
-    height: 478
-  m_SceneLighting: 1
-  lastFramingTime: 57540.726023972034
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: 410, y: 230.5, z: 0}
-    speed: 2
-    m_Value: {x: 410, y: 230.5, z: 0}
-  m_RenderMode: 0
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 0
-    showMaterialUpdate: 0
-    showSkybox: 0
-    showFlares: 0
-    showImageEffects: 0
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-    m_Target: 1552.1589
-    speed: 2
-    m_Value: 1552.1589
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_LastSceneViewRotation: {x: -0.05111664, y: -0.58264625, z: 0.036756568, w: -0.8102835}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
+    x: 204
+    y: 97
+    width: 609
+    height: 510
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 0400000000000000000000000e000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    m_HBaseRangeMin: -152.25
+    m_HBaseRangeMax: 152.25
+    m_VBaseRangeMin: -95.15625
+    m_VBaseRangeMax: 95.15625
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoom: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 609
+      height: 493
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 304.5, y: 246.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -152.25
+      y: -123.25
+      width: 304.5
+      height: 246.5
+    m_MinimalGUI: 1
+  m_defaultScale: 2
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1218, y: 1020}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,17 +113,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 10}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1086
+    width: 1113
     height: 802
-  m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 508, y: 492}
+  m_MaxSize: {x: 12008, y: 14042}
   vertical: 1
-  controlID: 48
+  controlID: 6096
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,16 +138,17 @@ MonoBehaviour:
   m_Children:
   - {fileID: 5}
   - {fileID: 7}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1086
-    height: 499
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+    width: 1113
+    height: 531
+  m_MinSize: {x: 508, y: 221}
+  m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 49
+  controlID: 6097
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +165,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 257
-    height: 499
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 202
+    height: 531
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -194,14 +197,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 93
-    width: 255
-    height: 478
+    y: 97
+    width: 200
+    height: 510
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 18e2fdff
-    m_LastClickedID: -138728
-    m_ExpandedIDs: 18e2fdffdcfbffff000000007a250000
+    m_SelectedIDs: 80ec0000
+    m_LastClickedID: 60544
+    m_ExpandedIDs: d8d6f9ffa8d7f9ff40dcf9ff5ce0f9ff46e5f9ff82e9f9ff84eef9ffc2f3f9ffb4f8f9ff5afef9ff2a04fafff807faff2c0dfaffe012faffc618faffd6d4faffbcbffcff38a7ffff1aa8ffff64abffffbaaeffff0eb1ffff42b4ffff08b7ffffecb9ffff74bdffff8ec1ffff6cc5ffff68c7ffffc6caffff20ceffff38d2ffff50d8ffffdeddffffcee1ffff2ce9ffff66ebffff26eeffff1af0ffff70f8ffffdefbffff00000000c6460000f846000004ec000094ec0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -219,8 +222,7 @@ MonoBehaviour:
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
-  m_ExpandedScenes:
-  - Game
+  m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -238,19 +240,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 257
+    x: 202
     y: 0
-    width: 829
-    height: 499
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+    width: 613
+    height: 531
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
-  - {fileID: 8}
-  - {fileID: 9}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,75 +259,99 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 815
+    y: 0
+    width: 298
+    height: 531
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 9}
+  m_Panes:
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 0
+  m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 259
-    y: 93
-    width: 825
-    height: 478
-  m_MaximizeOnPlay: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 0500000000000000000000000e000000000000000000000000000000000000000000000000000000
-  m_TargetDisplay: 0
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    m_HBaseRangeMin: -204.88889
-    m_HBaseRangeMax: 204.88889
-    m_VBaseRangeMin: -115.25
-    m_VBaseRangeMax: 115.25
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoom: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 17
-      width: 825
-      height: 461
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 412.5, y: 230.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -206.25
-      y: -115.25
-      width: 412.5
-      height: 230.5
-    m_MinimalGUI: 1
-  m_defaultScale: 2
-  m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1650, y: 956}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000100000100
---- !u!114 &9
+    x: 817
+    y: 97
+    width: 294
+    height: 510
+  m_SceneLighting: 1
+  lastFramingTime: 181658.36487203836
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 15.242218, y: 59.419518, z: 1908.5963}
+    speed: 2
+    m_Value: {x: 15.242218, y: 59.419518, z: 1908.5963}
+  m_RenderMode: 0
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 0
+    showMaterialUpdate: 0
+    showSkybox: 0
+    showFlares: 0
+    showImageEffects: 0
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+  m_Rotation:
+    m_Target: {x: 0.10456381, y: 0.28890145, z: -0.03176179, w: 0.95110124}
+    speed: 2
+    m_Value: {x: -0.10456381, y: -0.28890145, z: 0.03176179, w: -0.95110124}
+  m_Size:
+    m_Target: 292.2951
+    speed: 2
+    m_Value: 292.2951
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_LastSceneViewRotation: {x: -0.18319604, y: -0.1642981, z: 0.031069025, w: -0.9687518}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -349,13 +373,13 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 259
-    y: 93
-    width: 825
-    height: 478
+    x: 202
+    y: 97
+    width: 909
+    height: 510
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
---- !u!114 &10
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -370,19 +394,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 499
-    width: 1086
-    height: 303
+    y: 531
+    width: 1113
+    height: 271
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 11}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 11}
   - {fileID: 12}
   - {fileID: 13}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 2
---- !u!114 &11
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -405,9 +429,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 592
-    width: 1084
-    height: 282
+    y: 628
+    width: 1111
+    height: 250
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -419,19 +443,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/START Pack/Blender Imports/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/START Pack/Blender Imports/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/paulmooney/Unity Work/Udemy course/BowlMaster
+  m_LastProjectPath: /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a4240000
-    m_LastClickedID: 9380
-    m_ExpandedIDs: 00000000a424000026250000ffffff7f
+    scrollPos: {x: 0, y: 18}
+    m_SelectedIDs: 74250000
+    m_LastClickedID: 9588
+    m_ExpandedIDs: 00000000c62400004e2500006e250000962500001a2800001c2800001e2800002028000022280000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -447,7 +471,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -459,7 +483,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 21}
     m_SelectedIDs: 827afeff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a424000026250000
+    m_ExpandedIDs: 00000000c62400004e2500006e250000962500001a2800001c2800001e2800002028000022280000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -475,7 +499,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -484,10 +508,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 18e2fdff
-    m_LastClickedInstanceID: -138728
+    m_SelectedInstanceIDs: 80ec0000
+    m_LastClickedInstanceID: 60544
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 7c6dfeff7a2b000052280000502b0000262600009429000082260000
+    m_ExpandedInstanceIDs: 7c6dfeff7a2b000052280000502b0000262600009429000082260000f8240000fc240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,7 +527,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -514,7 +538,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 271
---- !u!114 &12
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -537,17 +561,25 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 592
-    width: 1083
-    height: 282
+    y: 628
+    width: 1111
+    height: 250
   m_ViewPositions:
-    m_KeySerializationHelper: []
-    m_ValueSerializationHelper: []
+    m_KeySerializationHelper:
+    - {fileID: 1107365956669806432, guid: 1ff84e5d1d4284f309673d837a95fa53, type: 2}
+    - {fileID: 1107003575617914696, guid: 1ff84e5d1d4284f309673d837a95fa53, type: 2}
+    - {fileID: 1107405701530374412, guid: 1ff84e5d1d4284f309673d837a95fa53, type: 2}
+    - {fileID: 1107681968084546282, guid: 1ff84e5d1d4284f309673d837a95fa53, type: 2}
+    m_ValueSerializationHelper:
+    - {x: 616.60004, y: 130}
+    - {x: 666.10205, y: 140.10013}
+    - {x: 754.1007, y: 144.09988}
+    - {x: 720.0974, y: 112.499756}
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: c7a2c6a02377d473099221d025d58dc8,
+  m_AnimatorController: {fileID: 9100000, guid: 1ff84e5d1d4284f309673d837a95fa53,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107218961037909674, guid: c7a2c6a02377d473099221d025d58dc8,
+  - m_Target: {fileID: 1107365956669806432, guid: 1ff84e5d1d4284f309673d837a95fa53,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -561,7 +593,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -584,10 +616,10 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 592
-    width: 1084
-    height: 282
---- !u!114 &14
+    y: 687
+    width: 1111
+    height: 191
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -601,18 +633,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1086
+    x: 1113
     y: 0
-    width: 354
+    width: 327
     height: 802
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &15
+  m_LastSelected: 1
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -634,14 +667,271 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1088
-    y: 93
-    width: 352
+    x: 1115
+    y: 97
+    width: 325
     height: 781
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 21.999512}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -319
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 1115
+    y: 97
+    width: 325
+    height: 781
+  m_IsSceneBased: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 17}
+    newResultList:
+    - id: '[BowlMaster]'
+      name: BowlMaster
+      fullName: BowlMaster
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp.dll]'
+      name: Assembly-CSharp.dll
+      fullName: /Users/paulmooney/Unity Work/Udemy course/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp.dll
+      resultStatus: 2
+      duration: 0
+      messages: Has no TestFixtures
+      output: 
+      stacktrace: 
+      notRunnable: 1
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 9e2c135fffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 17}
+    newResultList:
+    - id: '[BowlMaster]'
+      name: BowlMaster
+      fullName: BowlMaster
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll]'
+      name: Assembly-CSharp-Editor.dll
+      fullName: /Users/paulmooney/Unity Work/Udemy course/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 1
+      duration: 0.359214
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest]'
+      name: ActionManagerZTest
+      fullName: ActionManagerZTest
+      resultStatus: 1
+      duration: 0.297733
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T01_onStrikeReturnsEndTurn]'
+      name: T01_onStrikeReturnsEndTurn
+      fullName: ActionManagerZTest.T01_onStrikeReturnsEndTurn
+      resultStatus: 1
+      duration: 0.017268
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T02_firstBowlOfFrameReturnTidy]'
+      name: T02_firstBowlOfFrameReturnTidy
+      fullName: ActionManagerZTest.T02_firstBowlOfFrameReturnTidy
+      resultStatus: 1
+      duration: 0.008289
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T03_onSpareReturnEndTurn]'
+      name: T03_onSpareReturnEndTurn
+      fullName: ActionManagerZTest.T03_onSpareReturnEndTurn
+      resultStatus: 1
+      duration: 0.008632
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T04_ResetIfStrikeOnLastFrame]'
+      name: T04_ResetIfStrikeOnLastFrame
+      fullName: ActionManagerZTest.T04_ResetIfStrikeOnLastFrame
+      resultStatus: 1
+      duration: 0.008553
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T05_ResetRoll2IfSpareOnLastFrame]'
+      name: T05_ResetRoll2IfSpareOnLastFrame
+      fullName: ActionManagerZTest.T05_ResetRoll2IfSpareOnLastFrame
+      resultStatus: 1
+      duration: 0.008031
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T06_TestGameEndsAfterRoll21]'
+      name: T06_TestGameEndsAfterRoll21
+      fullName: ActionManagerZTest.T06_TestGameEndsAfterRoll21
+      resultStatus: 1
+      duration: 0.008463
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T07_TestGameEndsIfNoSpareOnRoll20]'
+      name: T07_TestGameEndsIfNoSpareOnRoll20
+      fullName: ActionManagerZTest.T07_TestGameEndsIfNoSpareOnRoll20
+      resultStatus: 1
+      duration: 0.008552
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T08_TestTidyIfStrikeOn19butNotOn20]'
+      name: T08_TestTidyIfStrikeOn19butNotOn20
+      fullName: ActionManagerZTest.T08_TestTidyIfStrikeOn19butNotOn20
+      resultStatus: 1
+      duration: 0.008271
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T09_TestTidyIfStrikeOn19butGutteredOn20]'
+      name: T09_TestTidyIfStrikeOn19butGutteredOn20
+      fullName: ActionManagerZTest.T09_TestTidyIfStrikeOn19butGutteredOn20
+      resultStatus: 1
+      duration: 0.00879
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T10_GutterThenSpareToEndTurnAndIncrement1]'
+      name: T10_GutterThenSpareToEndTurnAndIncrement1
+      fullName: ActionManagerZTest.T10_GutterThenSpareToEndTurnAndIncrement1
+      resultStatus: 1
+      duration: 0.008181
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T11_3StrikesOnFinalFrame]'
+      name: T11_3StrikesOnFinalFrame
+      fullName: ActionManagerZTest.T11_3StrikesOnFinalFrame
+      resultStatus: 1
+      duration: 0.008166
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T05_ResetRoll2IfSpareOnLastFrame (0.008s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 23f12f4a
+      m_LastClickedID: 1244655907
+      m_ExpandedIDs: de19bd99539912bbd1ec9dbcabd366e09e2c135fffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 

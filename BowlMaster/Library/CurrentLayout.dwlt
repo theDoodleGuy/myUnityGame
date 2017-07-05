@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -65,7 +65,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 852
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -128,10 +128,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 802
-  m_MinSize: {x: 404, y: 471}
+  m_MinSize: {x: 504, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 23
+  controlID: 116
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 0
     width: 1163
     height: 802
-  m_MinSize: {x: 304, y: 471}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 24
+  controlID: 76
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,10 +176,10 @@ MonoBehaviour:
     y: 0
     width: 1163
     height: 531
-  m_MinSize: {x: 304, y: 200}
+  m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 25
+  controlID: 51
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,15 +223,15 @@ MonoBehaviour:
     y: 0
     width: 961
     height: 531
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -378,9 +378,9 @@ MonoBehaviour:
     - id: '[BowlMaster][Assembly-CSharp-Editor.dll]'
       name: Assembly-CSharp-Editor.dll
       fullName: /Users/paulmooney/Unity Work/Udemy course/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 1
-      duration: 0.096464
-      messages: 
+      resultStatus: 2
+      duration: 0.236144
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -389,11 +389,113 @@ MonoBehaviour:
     - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest]'
       name: ActionManagerZTest
       fullName: ActionManagerZTest
-      resultStatus: 0
-      duration: 0
+      resultStatus: 2
+      duration: 0.189707
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T01_onStrikeReturnsEndTurn]'
+      name: T01_onStrikeReturnsEndTurn
+      fullName: ActionManagerZTest.T01_onStrikeReturnsEndTurn
+      resultStatus: 1
+      duration: 0.021371
       messages: 
       output: 
       stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T02_firstBowlOfFrameReturnTidy]'
+      name: T02_firstBowlOfFrameReturnTidy
+      fullName: ActionManagerZTest.T02_firstBowlOfFrameReturnTidy
+      resultStatus: 1
+      duration: 0.008165
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T03_onSpareReturnEndTurn]'
+      name: T03_onSpareReturnEndTurn
+      fullName: ActionManagerZTest.T03_onSpareReturnEndTurn
+      resultStatus: 1
+      duration: 0.008771
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T04_ResetIfStrikeOnLastFrame]'
+      name: T04_ResetIfStrikeOnLastFrame
+      fullName: ActionManagerZTest.T04_ResetIfStrikeOnLastFrame
+      resultStatus: 1
+      duration: 0.008071
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T05_ResetRoll2IfSpareOnLastFrame]'
+      name: T05_ResetRoll2IfSpareOnLastFrame
+      fullName: ActionManagerZTest.T05_ResetRoll2IfSpareOnLastFrame
+      resultStatus: 1
+      duration: 0.008219
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T06_TestGameEndsAfterRoll21]'
+      name: T06_TestGameEndsAfterRoll21
+      fullName: ActionManagerZTest.T06_TestGameEndsAfterRoll21
+      resultStatus: 1
+      duration: 0.006926
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T07_TestGameEndsIfNoSpareOnRoll20]'
+      name: T07_TestGameEndsIfNoSpareOnRoll20
+      fullName: ActionManagerZTest.T07_TestGameEndsIfNoSpareOnRoll20
+      resultStatus: 1
+      duration: 0.008675
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T08_TestTidyIfStrikeOn19butNotOn20]'
+      name: T08_TestTidyIfStrikeOn19butNotOn20
+      fullName: ActionManagerZTest.T08_TestTidyIfStrikeOn19butNotOn20
+      resultStatus: 1
+      duration: 0.008438
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T09_TestTidyIfStrikeOn19butGutteredOn20]'
+      name: T09_TestTidyIfStrikeOn19butGutteredOn20
+      fullName: ActionManagerZTest.T09_TestTidyIfStrikeOn19butGutteredOn20
+      resultStatus: 2
+      duration: 0.021628
+      messages: "  Expected: Tidy\n  But was:  Reset\n"
+      output: 
+      stacktrace: 'at ActionManagerZTest.T09_TestTidyIfStrikeOn19butGutteredOn20 ()
+        [0x0005a] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Editor/ActionManagerTest.cs:91
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -403,7 +505,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: de19bd99539912bbd1ec9dbc9e2c135fffffff7f
+      m_ExpandedIDs: de19bd99539912bbd1ec9dbcabd366e09e2c135fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -480,7 +582,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.18319605, y: -0.16429812, z: 0.03106903, w: -0.9687519}
     speed: 2
-    m_Value: {x: -0.18319604, y: -0.1642981, z: 0.031069025, w: -0.9687518}
+    m_Value: {x: -0.18319605, y: -0.16429812, z: 0.03106903, w: -0.9687519}
   m_Size:
     m_Target: 512.2977
     speed: 2
@@ -525,7 +627,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 04caffff66ccffff68d0ffffb2d2ffff7ed5ffff20d7ffff70dcffffd0deffff26e1ffff96e3ffff20e6ffffb8e7ffff3aeaffff98f3ffffe0f3ffff06f6ffffcaf6ffff04f8ffff2af8ffff5afaffffdcfbffff00000000
+    m_ExpandedIDs: 3cf2ffffdcfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,19 +790,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Editor
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Editor
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/paulmooney/Unity Work/Udemy course/BowlMaster
+  m_LastProjectPath: /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2290000
-    m_LastClickedID: 10658
-    m_ExpandedIDs: 00000000c624000096250000822700008427000086270000882700008a270000ffffff7f
+    m_SelectedIDs: b6250000
+    m_LastClickedID: 9654
+    m_ExpandedIDs: 00000000b6250000862600000a2900000c2900000e2900001029000012290000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -728,7 +830,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 21}
     m_SelectedIDs: 827afeff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c6240000822700008427000086270000882700008a270000
+    m_ExpandedIDs: 00000000b6250000862600000a2900000c2900000e2900001029000012290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,7 +857,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 7c6dfeff7a2b000052280000502b0000262600009429000082260000f8240000fc240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

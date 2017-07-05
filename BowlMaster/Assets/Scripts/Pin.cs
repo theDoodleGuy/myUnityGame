@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pin : MonoBehaviour
 {
-	public float standingThreshold = 35f;
+	public float standingThreshold = 15f;
 	public float distToRaise;
 
 	void Start ()
@@ -19,7 +19,7 @@ public class Pin : MonoBehaviour
 
 		float tiltX = Mathf.Abs (rotationInEuler.x - 270);
 
-		//ceck if fallen over
+		//cHeck if fallen over
 		if (tiltX < standingThreshold) {
 			return true;
 		}

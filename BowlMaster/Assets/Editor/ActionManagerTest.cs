@@ -3,91 +3,88 @@ using UnityEditor;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 [TestFixture]
 public class ActionManagerZTest
 {
-	ActionManager actionManager;
-	ActionManager.myAction endTurn = ActionManager.myAction.EndTurn;
-	ActionManager.myAction tidy = ActionManager.myAction.Tidy;
-	ActionManager.myAction endGame = ActionManager.myAction.EndGame;
-	ActionManager.myAction reset = ActionManager.myAction.Reset;
+	List<int> pinFalls;
+	ActionManager.MyAction endTurn = ActionManager.MyAction.EndTurn;
+	ActionManager.MyAction tidy = ActionManager.MyAction.Tidy;
+	ActionManager.MyAction endGame = ActionManager.MyAction.EndGame;
+	ActionManager.MyAction reset = ActionManager.MyAction.Reset;
 
 	[SetUp]
 	public void Setup ()
 	{
-		actionManager = new ActionManager ();
+		pinFalls = new List<int> ();
 	}
 
 	//Test first bowl of frame
 	[Test]
 	public void T01_onStrikeReturnsEndTurn () {
-		Assert.AreEqual (endTurn, actionManager.Bowl(10));
+	pinFalls.Add(10);
+		Assert.AreEqual (endTurn, ActionManager.NextAction(pinFalls));
 	}
-
+	
 	[Test]
 	public void T02_firstBowlOfFrameReturnTidy () {
-		Assert.AreEqual (tidy, actionManager.Bowl(5));
+		pinFalls.Add(5);
+		Assert.AreEqual (tidy, ActionManager.NextAction(pinFalls));
 	}
 
 	[Test]
 	public void T03_onSpareReturnEndTurn () {
-		actionManager.Bowl(8);
-		Assert.AreEqual (endTurn, actionManager.Bowl(2));
+		int[] rolls = {2, 8};
+		Assert.AreEqual (endTurn, ActionManager.NextAction(rolls.ToList()));
 	}
 
 	[Test]
 	public void T04_ResetIfStrikeOnLastFrame () {
-		int [] rolls = {1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1};
-		foreach(int roll in rolls) {
-			actionManager.Bowl(roll);
-		}
-		Assert.AreEqual (reset, actionManager.Bowl(10));
+		int [] rolls = {1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 10};
+		Assert.AreEqual (reset,  ActionManager.NextAction(rolls.ToList()));
 	}
-
+	
 	[Test]
 	public void T05_ResetRoll2IfSpareOnLastFrame () {
-		int [] rolls = {1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1};
-		foreach(int roll in rolls) {
-			actionManager.Bowl(roll);
-		}
-		actionManager.Bowl(1);
-		Assert.AreEqual (reset, actionManager.Bowl(9));
+		int [] rolls = {1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,9};
+		Assert.AreEqual (reset, ActionManager.NextAction(rolls.ToList()));
 	}
 
 	[Test]
 	public void T06_TestGameEndsAfterRoll21 () {
-		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 8,2};
-		foreach(int roll in rolls) {
-			actionManager.Bowl(roll);
-		}
-		Assert.AreEqual (endGame, actionManager.Bowl(9));
+		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 8,2, 9};
+		Assert.AreEqual (endGame, ActionManager.NextAction(rolls.ToList()));
 	}
 
 	[Test]
 	public void T07_TestGameEndsIfNoSpareOnRoll20 () {
-		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 1};
-		foreach(int roll in rolls) {
-			actionManager.Bowl(roll);
-		}
-		Assert.AreEqual (endGame, actionManager.Bowl(1));
+		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 1,1};
+		Assert.AreEqual (endGame, ActionManager.NextAction(rolls.ToList()));
 	}
 
 	[Test]
 	public void T08_TestTidyIfStrikeOn19butNotOn20 () {
-		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 10};
-		foreach(int roll in rolls) {
-			actionManager.Bowl(roll);
-		}
-		Assert.AreEqual (tidy, actionManager.Bowl(1));
+		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 10, 1,};
+		Assert.AreEqual (tidy, ActionManager.NextAction(rolls.ToList()));
+	}
+	
+	[Test]
+	public void T09_TestTidyIfStrikeOn19butGutteredOn20 () {
+		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 10, 0};
+		Assert.AreEqual (tidy, ActionManager.NextAction(rolls.ToList()));
 	}
 
 	[Test]
-	public void T09_TestTidyIfStrikeOn19butGutteredOn20 () {
-		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 10};
-		foreach(int roll in rolls) {
-			actionManager.Bowl(roll);
-		}
-		Assert.AreEqual (tidy, actionManager.Bowl(0));
+	public void T10_GutterThenSpareToEndTurnAndIncrement1 () {
+		int [] rolls = {0,10, 0,10, 0,10, 0,10, 0,10, 0,10, 5,1};
+		Assert.AreEqual (endTurn, ActionManager.NextAction(rolls.ToList()));
+	}
+	
+	[Test]
+	public void T11_3StrikesOnFinalFrame () {
+		int [] rolls = {8,2, 7,3, 3,4, 10, 2,8, 10, 10, 8,0, 10, 10, 10, 10 };
+		Assert.AreEqual (endGame, ActionManager.NextAction(rolls.ToList()));
 	}
 }
