@@ -5,76 +5,90 @@ using UnityEngine;
 public class ActionManager
 {
 	public enum MyAction {Tidy, Reset, EndTurn, EndGame};
-	//MyAction myAction = 0;
 
-	int[] bowls = new int [21];
-	public int bowl = 1;
+	private int[] bowls = new int[21];
+	private int bowl = 1;
 
-	//New myAction method REFACTOR
-	public static MyAction NextAction (List<int> pinFalls)
+	public static MyAction NextAction (List<int> pinfFalls)
 	{
-		//code goes here
-		ActionManager actionManager = new ActionManager();
-		MyAction currentAction = new MyAction();
+		ActionManager am = new ActionManager ();
+		MyAction currentAction = new MyAction ();
 
-		foreach (int pinFall in pinFalls)
+		foreach (int pinFall in pinfFalls)
 		{
-			currentAction = actionManager.Bowl(pinFall);
+			currentAction = am.Bowl (pinFall);
 		}
+
 		return currentAction;
 	}
 
-	//TODO make private
-	public MyAction Bowl (int pins)
+	MyAction Bowl (int pins)
+
 	{
-		//invalid values
-		if (pins > 10 && pins < 0)
-			throw new UnityException (pins + " is an invalid value for pins");
+		if (pins < 0 || pins > 10)
+		{
+			throw new UnityException ("Invalid pins");
+		}
 
 		bowls [bowl - 1] = pins;
 
-		//Always end game after bowl 21
 		if (bowl == 21)
+		{
 			return MyAction.EndGame;
+		}
 
-		//Handle last frame special cases
-		if (bowl == 19 && pins == 10) {
+		// Handle last-frame special cases
+		if ( bowl >= 19 && pins == 10 )
+		{
 			bowl++;
 			return MyAction.Reset;
-		} else if (bowl == 20) {
+		}
+		else if ( bowl == 20 )
+		{
 			bowl++;
-			if (TwoStrikesLastFrame ()) {
-				return MyAction.Reset;
-			} else if (Bowl21Awarded ()) {
+			if (bowls[19-1]==10 && bowls[20-1]==0)
+			{
 				return MyAction.Tidy;
-			} else {
+			}
+			else if (bowls[19-1] + bowls[20-1] == 10)
+			{
+				return MyAction.Reset;
+			}
+			else if ( Bowl21Awarded() )
+			{
+				return MyAction.Tidy;
+			}
+			else
+			{
 				return MyAction.EndGame;
 			}
 		}
 
-		//End turn on strike
-		if (bowl % 2 != 0 && pins == 10) {
-			bowl += 2;
+		if (bowl % 2 != 0) // First bowl of frame
+		{
+			if (pins == 10)
+			{
+				bowl += 2;
+				return MyAction.EndTurn;
+			}
+			else
+			{
+				bowl += 1;
+				return MyAction.Tidy;
+			}
+		}
+		else if (bowl % 2 == 0) // Second bowl of frame
+		{
+			bowl += 1;
 			return MyAction.EndTurn;
 		}
-		//Tidy if not a strike on first bowl of frame
-		if (bowl % 2 != 0) {
-			bowl++;
-			return MyAction.Tidy;
-		} else if (bowl % 2 == 0) {
-			bowl++;
-			return MyAction.EndTurn;
-		}	
+
 		throw new UnityException ("Not sure what action to return!");
 	}
 
-	bool Bowl21Awarded ()
+	private bool Bowl21Awarded ()
 	{
+		// Remember that arrays start counting at 0
 		return (bowls [19-1] + bowls [20-1] >= 10);
-	}
-
-	bool TwoStrikesLastFrame ()
-	{
-		return ((bowls [19-1] + bowls [20-1]) % 10 == 0 && bowls[20-1] != 0);
 	}
 }

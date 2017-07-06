@@ -31,6 +31,8 @@ public class Pin : MonoBehaviour
 		if (IsStanding ()) {
 			transform.Translate(new Vector3 (0, distToRaise, 0),Space.World );
 			GetComponent<Rigidbody>().useGravity = false;
+			GetComponent<Rigidbody> ().isKinematic = true;
+			transform.rotation = Quaternion.Euler(270,0,0);
 		}
 	}
 
@@ -39,6 +41,7 @@ public class Pin : MonoBehaviour
 		if (IsStanding ()) {
 			transform.Translate(new Vector3 (0, -distToRaise, 0),Space.World );
 			GetComponent<Rigidbody>().useGravity = true;
+			GetComponent<Rigidbody> ().isKinematic = false;
 		}
 	}
 }
