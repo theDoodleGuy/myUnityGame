@@ -23,61 +23,42 @@ public class ScoreManager
 	{
 		List<int> frameScore = new List<int> ();
 
-		//set second roll as zero if strike
-		for (int i = 0; i < rolls.Count; i++) {
-
-			if (rolls [i] == 10) {
-				rolls.Insert ((i + 1), 0);
-			}
-		}
-
-		//loop through every 2 rolls to get frame total
 		for (int i = 0; i < rolls.Count; i += 2) {
-			int frameTotal;
 
 			if (i + 1 != rolls.Count) {
-				frameTotal = rolls [i] + rolls [i + 1];
 
-				if (frameTotal == 10) {
+				if (rolls [i] == 10) {
+					Debug.Log ("Strike");
+					//if bonus value known
+					if (rolls.Count > i + 2) {
 
-					Debug.Log ("roll1 = " + rolls [i]);
-					Debug.Log ("roll2 = " + rolls [i + 1]);
-					Debug.Log ("total = " + frameTotal);
+						int strikeBonus= rolls [i + 1] + rolls [i + 2];
 
-					//handle strike
-					if (rolls [i] == 10) {
-						Debug.Log ("Strike");
-						//if bonus value known
-						if (rolls.Count > i + 3) {
-
-							Debug.Log ("NEXT FRAME roll1 = " + rolls [i + 2]);
-							Debug.Log ("NEXT FRAME roll2 = " + rolls [i + 3]);
-
-							int strikeBonus = rolls [i + 2] + rolls [i + 3];
-							frameScore.Add (frameTotal + strikeBonus);
-						}
-						//if bonus value unknown
-						else {
-							return frameScore;
-						}
+						frameScore.Add(10 + strikeBonus);
+						rolls.Insert ((i + 1), 0);
 					}
-					// handle spare
+					//if bonus value unknown
 					else {
-						Debug.Log ("Spare");
-						//if bonus value known
-						if (rolls.Count > i + 2) {
-							int spareBonus = rolls [i + 2];
-							frameScore.Add (frameTotal + spareBonus);
-						}
-						//if bonus value unknown
-						else {
-							return frameScore;
-						}
+						return frameScore;
+					}
+				}
+				// handle spare
+				else if(rolls[i] + rolls[i + 1] == 10) {
+					int frameTotal = rolls[i] + rolls[i + 1];
+					Debug.Log ("Spare");
+					//if bonus value known
+					if (rolls.Count > i + 2) {
+						int spareBonus = rolls [i + 2];
+						frameScore.Add (frameTotal + spareBonus);
+					}
+					//if bonus value unknown
+					else {
+						return frameScore;
 					}
 				}
 
 				else {
-					frameScore.Add (frameTotal);
+					frameScore.Add (rolls[i] + rolls[i + 1]);
 				}
 			} else {
 				return frameScore;
