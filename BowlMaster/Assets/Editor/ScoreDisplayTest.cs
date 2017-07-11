@@ -98,4 +98,16 @@ public class ScoreDisplayTest {
 		string rollsString = "X X X X X X X X X XXX";
 		Assert.AreEqual (rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
 	}
+	[Test]
+	public void T15BowlalllastFrameStrikeAndSpare () {
+		int[] rolls = {1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 10, 1,1};
+		string rollsString = "111111111111111111X11";
+		Assert.AreEqual (rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
+	}
+	[Test]
+	public void T16Bowlall2StrikeAndSpareAtEnd () {
+		int[] rolls = {1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 10, 10, 1,1};
+		string rollsString = "1111111111111111X X11";
+		Assert.AreEqual (rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
+	}
 }
