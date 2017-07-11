@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreManager
+public static class ScoreManager
 {
 	//Returns a list of cumulative scores, like a scorecard
 	public static List<int> ScoreCumulative (List<int> rolls)
