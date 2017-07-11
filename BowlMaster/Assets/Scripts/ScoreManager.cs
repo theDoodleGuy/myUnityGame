@@ -26,15 +26,14 @@ public class ScoreManager
 		for (int i = 0; i < rolls.Count; i += 2) {
 
 			if (i + 1 != rolls.Count) {
-
+				//handle strike
 				if (rolls [i] == 10) {
-					Debug.Log ("Strike");
 					//if bonus value known
-					if (rolls.Count > i + 2) {
-
-						int strikeBonus= rolls [i + 1] + rolls [i + 2];
-
-						frameScore.Add(10 + strikeBonus);
+					if (i == 18) {
+						frameScore.Add (10 + rolls [i + 1] + rolls [i + 2]);
+					}
+					else if (rolls.Count > i + 2) {
+						frameScore.Add (10 + rolls [i + 1] + rolls [i + 2]);
 						rolls.Insert ((i + 1), 0);
 					}
 					//if bonus value unknown
@@ -43,28 +42,23 @@ public class ScoreManager
 					}
 				}
 				// handle spare
-				else if(rolls[i] + rolls[i + 1] == 10) {
-					int frameTotal = rolls[i] + rolls[i + 1];
-					Debug.Log ("Spare");
+				else if (rolls [i] + rolls [i + 1] == 10) {
+					int frameTotal = rolls [i] + rolls [i + 1];
 					//if bonus value known
 					if (rolls.Count > i + 2) {
-						int spareBonus = rolls [i + 2];
-						frameScore.Add (frameTotal + spareBonus);
+						frameScore.Add (frameTotal + rolls [i + 2]);
 					}
 					//if bonus value unknown
 					else {
 						return frameScore;
 					}
-				}
-
-				else {
-					frameScore.Add (rolls[i] + rolls[i + 1]);
+				} else {
+					frameScore.Add (rolls [i] + rolls [i + 1]);
 				}
 			} else {
 				return frameScore;
 			}
 		}
-
 		return frameScore;
 	}
 }
