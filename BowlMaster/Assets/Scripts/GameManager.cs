@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-	List <int> bowls = new List <int> ();
+	List <int> rolls = new List <int> ();
 
 	PinSetter pinsetter;
 	Ball ball;
@@ -21,15 +21,16 @@ public class GameManager : MonoBehaviour
 	public void Bowl (int pinFall)
 	{
 		try {
-			bowls.Add (pinFall);
+			rolls.Add (pinFall);
 			ball.Reset ();
-			pinsetter.PinSetterAction (ActionManager.NextAction (bowls));
+			pinsetter.PinSetterAction (ActionManager.NextAction (rolls));
 		} catch {
 			Debug.LogWarning("Something went wrong with Bowl()");
 		}
 
 		try {
-			scoreDisplay.FillRollCard(bowls);
+			scoreDisplay.FillRolls(rolls);
+			scoreDisplay.FillFrames(ScoreManager.ScoreCumulative(rolls));
 		} catch {
 			Debug.LogWarning("Something went wrong with FillRollCard()");
 		}
