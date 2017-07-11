@@ -26,13 +26,10 @@ public class PinCounter : MonoBehaviour
 	void Update ()
 	{
 		if (ballLeftBox) {
-			Debug.Log ("Ball out!");
 			CheckStanding ();
-			pinCount.text = CountStanding ().ToString ();
-
-			return;
 		}
-		Debug.Log("Ball in!");
+		pinCount.text = CountStanding ().ToString ();
+	
 	}
 
 	void OnTriggerExit (Collider col)
