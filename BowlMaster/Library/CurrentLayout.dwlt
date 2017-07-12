@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 350}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -65,7 +65,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 852
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -128,10 +128,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 802
-  m_MinSize: {x: 406, y: 300}
-  m_MaxSize: {x: 12006, y: 8021}
+  m_MinSize: {x: 504, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 129
+  controlID: 23
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,12 +150,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
+    width: 1069
     height: 802
-  m_MinSize: {x: 304, y: 300}
-  m_MaxSize: {x: 8004, y: 8021}
+  m_MinSize: {x: 404, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 96
+  controlID: 24
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,12 +174,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
-    height: 448
-  m_MinSize: {x: 304, y: 200}
+    width: 1069
+    height: 531
+  m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 75
+  controlID: 25
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,8 +196,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 202
-    height: 448
+    width: 204
+    height: 531
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
@@ -219,19 +219,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 202
+    x: 204
     y: 0
-    width: 756
-    height: 448
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
+    width: 865
+    height: 531
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,18 +247,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 448
-    width: 958
-    height: 354
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+    y: 531
+    width: 1069
+    height: 271
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,12 +273,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 958
+    x: 1069
     y: 0
-    width: 482
+    width: 371
     height: 802
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 20}
@@ -307,10 +307,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 204
+    x: 206
     y: 93
-    width: 752
-    height: 427
+    width: 861
+    height: 510
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -319,10 +319,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -164
-    m_HBaseRangeMax: 164
-    m_VBaseRangeMin: -102.5
-    m_VBaseRangeMax: 102.5
+    m_HBaseRangeMin: -197.2
+    m_HBaseRangeMax: 197.2
+    m_VBaseRangeMin: -123.25
+    m_VBaseRangeMax: 123.25
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -331,7 +331,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -339,25 +339,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 752
-      height: 410
+      width: 861
+      height: 493
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 376, y: 205}
+    m_Translation: {x: 430.5, y: 246.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -188
-      y: -102.5
-      width: 376
-      height: 205
+      x: -215.25
+      y: -123.25
+      width: 430.5
+      height: 246.5
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1504, y: 854}
+  m_LastWindowPixelSize: {x: 1722, y: 1020}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -384,32 +384,33 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 17
-    width: 200
-    height: 427
+    y: 93
+    width: 202
+    height: 510
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a060000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 84f3f7fff0fbf7ff1c02f8ff8a0ff8ff201af8ff7625f8ff1831f8ff2237f8ff5c3bf8ff5a54f8ff965bf8ffa461f8ffda6cf8ff2875f8fff67bf8ff2e85f8ff8c89f8ff7c90f8ff8a97f8ffd09ff8ff6ea7f8ff54aff8ff7ab4f8ff20bcf8ff42c6f8ff24cdf8ffccd4f8ffe8e7f8ffc2ecf8fffef0f8ff52fcf8ffd807f9ffca0af9ff8c10f9ffd415f9ff681af9ff161ff9ffc023f9ff6c28f9ff122df9ff7031f9ff4e36f9ff863bf9ff6a42f9ff1248f9ff0a4cf9ff8c52f9ff1e59f9ff8c5df9ffe666f9ff146af9ff8273f9ff8e79f9ff6e7ef9ff6483f9ff108bf9ff768ff9ffe691f9ffbc97f9ffd89bf9fffea0f9ffa6a5f9fff8a9f9ff18aef9ff42b5f9ffa6c3f9ffd2caf9ff1acff9ff10d5f9ffeed8f9ffa0dcf9ff04dff9ffa4e5f9ff02eaf9ff82f0f9ff36faf9ff6800faffb605faff9c0cfaffba14faffd619faff621dfaff5427faff5a2cfaffa631faff6836faff043cfafff43ffaffa643faffc049faff824ffaff8655faffc45bfaffda60faffd066faff606dfaff4c73faffec76faffd279faffb27dfaff4a83faff9889faffbe92faff4898faff069dfaffc6a1faffc2a8faff9caefaff92b6faffaabafaff9ec0faff36c5faffd0cefaff7ed4faffd2dafaff6ce1faff72eafaffe2f0faff2cf4faff8afdfaffa002fbffb607fbff680cfbff8212fbff3217fbff361dfbff0e22fbff6426fbff002bfbffc42ffbff2a35fbffce39fbff0840fbff8847fbfff84cfbff2c55fbff6e5afbff8c60fbff4064fbffde66fbffe26bfbffa871fbff5277fbffd67dfbffe682fbff8888fbffe68cfbffb895fbff5e9afbff9a9ffbffd0a3fbff4aa7fbff4aaefbff4eb4fbff24befbff6cc1fbff98c7fbff30cffbffb4d3fbff96d9fbff1ce2fbffa2e8fbff34f0fbff8cf6fbffa4fcfbffa204fcffe012fcff1818fcffc21dfcff1a23fcffc028fcff5e2dfcffa630fcff7a36fcff6c3efcff1443fcffee48fcff3255fcff7a59fcff6860fcffd466fcff1e6cfcffb673fcffdc76fcff2a79fcff5280fcff1684fcff6a89fcff708dfcff6893fcff0e99fcffe69efcff02a6fcffbcacfcff06b8fcff38bdfcff86c5fcff4acafcff88cefcffb0d3fcff70dafcff22dffcffeae6fcff70ecfcff2af2fcff3cf9fcffecfefcff5e03fdff3408fdff620efdff0412fdff6c18fdff7e20fdff1a25fdff022afdffb432fdffdc38fdff603ffdff8843fdff4847fdff4e4bfdff9a4ffdff3055fdffc85efdff1a64fdffa669fdff1470fdfff675fdfffa7bfdffa480fdff8c84fdffe488fdff2a92fdff9096fdffea9bfdff9ea5fdff2eaafdffe6b0fdffd4b5fdff28bafdff38c3fdff74c8fdff32e4fdffd6eafdff78effdffcc1ffeff9e24feff2483feffce83feff8a86feffccf0feff9016ffff981affff881fffff6c23ffff4228ffffec33ffffb64dffff5453ffff6c58ffff965dffff94f1ffffa4f1ffff9af2ffffdefbffff00000000c627000076410000
+    m_SelectedIDs: 64530100
+    m_LastClickedID: 86884
+    m_ExpandedIDs: 4649fafff249faff604cfaff5050faff3454faff7656faff4c5bfaff925dfafff663faff0ab2faffc8b2faff5ebafaff1cbbfaff64c1faff2cc2faff3ec9faffa2defaff68dffaff3ce7faffc8e7faff3cf7faffda12fbff7013fbff4016fbff5019fbff221dfbff4a25fbff8226fbff402dfbff2035fbffa43afbff3a3dfbff4c4efbffb84ffbff2c6ffbfff86ffbffc27bfbff927cfbff3287fbff448dfbffa290fbff1494fbff20d2fbffd4d2fbff1ca7fdff02a8fdff2867feff1468feff446ffeffae7afeffbca1feff24a9feff26b7feffd8c1feffc2d6feffe8e6feffdae7feffe2ecfeff2ef9feff5efefeffde1fffff6e22ffff462affff70d4ffff48d5fffff0d9ffffaadfffffe8e4ffffd6e9ffffc2efffff2af6ffffdefbffff00000000a4340000c0350000e482000064830000b083000082a3000026a40000eecc000044ef0000280601006e2e0100ee2e0100382f0100ea2f0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Lane
+      m_OriginalName: Lane
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 41782
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
-  m_ExpandedScenes: []
+  m_ExpandedScenes:
+  - Game
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -435,19 +436,19 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 321
-    y: 17
-    width: 635
-    height: 590
+    x: 206
+    y: 93
+    width: 861
+    height: 510
   m_SceneLighting: 1
-  lastFramingTime: 2743.410660982132
-  m_2DMode: 1
+  lastFramingTime: 17426.113882005215
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 286.28452, y: 93.81225, z: 868}
+    m_Target: {x: 0, y: 59.75, z: 999}
     speed: 2
-    m_Value: {x: 286.28452, y: 93.81225, z: 868}
+    m_Value: {x: 0, y: 59.75, z: 999}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -462,26 +463,26 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.050249916, y: -0.93793243, z: 0.15358657, w: 0.3068693}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.05024992, y: -0.9379325, z: 0.15358658, w: 0.30686933}
   m_Size:
-    m_Target: 604.77625
+    m_Target: 1710.3881
     speed: 2
-    m_Value: 604.77625
+    m_Value: 1710.3881
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: 0
+  m_LastSceneViewRotation: {x: 0.08717229, y: -0.89959055, z: 0.21045254, w: 0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -509,10 +510,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 441
+    x: 206
     y: 93
-    width: 515
-    height: 270
+    width: 861
+    height: 510
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
 --- !u!114 &17
@@ -538,9 +539,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 384
-    width: 1090
-    height: 490
+    y: 624
+    width: 1067
+    height: 250
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -552,19 +553,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7c250000
-    m_LastClickedID: 9596
-    m_ExpandedIDs: 00000000cc2400009c2500008a2700008c2700008e2700009027000092270000ffffff7f
+    m_SelectedIDs: 68250000
+    m_LastClickedID: 9576
+    m_ExpandedIDs: 00000000dc240000ac250000a4280000a6280000a8280000aa280000ac280000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +593,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 21}
     m_SelectedIDs: 827afeff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc240000542500009c2500008a2700008c2700008e2700009027000092270000
+    m_ExpandedIDs: 00000000dc240000ac250000a4280000a6280000a8280000aa280000ac280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -617,9 +618,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 70060000
-    m_LastClickedInstanceID: 1648
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 7c6dfeff7a2b000052280000502b0000262600009429000082260000f8240000fc240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -636,7 +637,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -670,8 +671,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 628
-    width: 1111
+    y: 624
+    width: 1067
     height: 250
   m_ViewPositions:
     m_KeySerializationHelper:
@@ -680,7 +681,7 @@ MonoBehaviour:
     - {fileID: 1107405701530374412, guid: 1ff84e5d1d4284f309673d837a95fa53, type: 2}
     - {fileID: 1107681968084546282, guid: 1ff84e5d1d4284f309673d837a95fa53, type: 2}
     m_ValueSerializationHelper:
-    - {x: 616.60004, y: 130}
+    - {x: 590.2, y: 130}
     - {x: 666.10205, y: 140.10013}
     - {x: 754.1007, y: 144.09988}
     - {x: 720.0974, y: 112.499756}
@@ -725,9 +726,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 541
-    width: 956
-    height: 333
+    y: 624
+    width: 1067
+    height: 250
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -750,9 +751,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1115
+    x: 1071
     y: 93
-    width: 325
+    width: 369
     height: 781
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
@@ -782,9 +783,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 960
+    x: 1071
     y: 93
-    width: 480
+    width: 369
     height: 781
   m_IsSceneBased: 0
   m_TestTypeToolbarIndex: 1
@@ -854,9 +855,9 @@ MonoBehaviour:
     - id: '[BowlMaster][Assembly-CSharp-Editor.dll]'
       name: Assembly-CSharp-Editor.dll
       fullName: /Users/paulmooney/Unity Work/Udemy course/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 2
-      duration: 0.639989
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 1.003888
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -866,128 +867,205 @@ MonoBehaviour:
       name: ActionManagerZTest
       fullName: ActionManagerZTest
       resultStatus: 1
-      duration: 0.230775
+      duration: 0.224274
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T01_onStrikeReturnsEndTurn]'
-      name: T01_onStrikeReturnsEndTurn
-      fullName: ActionManagerZTest.T01_onStrikeReturnsEndTurn
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest]'
+      name: ScoreDisplayTest
+      fullName: ScoreDisplayTest
       resultStatus: 1
-      duration: 0.017037
+      duration: 0.268279
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T02_firstBowlOfFrameReturnTidy]'
-      name: T02_firstBowlOfFrameReturnTidy
-      fullName: ActionManagerZTest.T02_firstBowlOfFrameReturnTidy
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T00PassingTest]'
+      name: T00PassingTest
+      fullName: ScoreDisplayTest.T00PassingTest
       resultStatus: 1
-      duration: 0.008049
+      duration: 0.003781
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T03_onSpareReturnEndTurn]'
-      name: T03_onSpareReturnEndTurn
-      fullName: ActionManagerZTest.T03_onSpareReturnEndTurn
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T01Bowl1]'
+      name: T01Bowl1
+      fullName: ScoreDisplayTest.T01Bowl1
       resultStatus: 1
-      duration: 0.008316
+      duration: 0.004304
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T04_ResetIfStrikeOnLastFrame]'
-      name: T04_ResetIfStrikeOnLastFrame
-      fullName: ActionManagerZTest.T04_ResetIfStrikeOnLastFrame
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T02Bowl12]'
+      name: T02Bowl12
+      fullName: ScoreDisplayTest.T02Bowl12
       resultStatus: 1
-      duration: 0.008151
+      duration: 0.004092
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T05_ResetRoll2IfSpareOnLastFrame]'
-      name: T05_ResetRoll2IfSpareOnLastFrame
-      fullName: ActionManagerZTest.T05_ResetRoll2IfSpareOnLastFrame
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T03Bowl123]'
+      name: T03Bowl123
+      fullName: ScoreDisplayTest.T03Bowl123
       resultStatus: 1
-      duration: 0.008343
+      duration: 0.003898
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T06_TestGameEndsAfterRoll21]'
-      name: T06_TestGameEndsAfterRoll21
-      fullName: ActionManagerZTest.T06_TestGameEndsAfterRoll21
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T04Bowl1234]'
+      name: T04Bowl1234
+      fullName: ScoreDisplayTest.T04Bowl1234
       resultStatus: 1
-      duration: 0.008353
+      duration: 0.004305
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T07_TestGameEndsIfNoSpareOnRoll20]'
-      name: T07_TestGameEndsIfNoSpareOnRoll20
-      fullName: ActionManagerZTest.T07_TestGameEndsIfNoSpareOnRoll20
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T05BowlspareOnFirst]'
+      name: T05BowlspareOnFirst
+      fullName: ScoreDisplayTest.T05BowlspareOnFirst
       resultStatus: 1
-      duration: 0.008714
+      duration: 0.004143
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T08_TestTidyIfStrikeOn19butNotOn20]'
-      name: T08_TestTidyIfStrikeOn19butNotOn20
-      fullName: ActionManagerZTest.T08_TestTidyIfStrikeOn19butNotOn20
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T06Bowlspare2]'
+      name: T06Bowlspare2
+      fullName: ScoreDisplayTest.T06Bowlspare2
       resultStatus: 1
-      duration: 0.008698
+      duration: 0.003935
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T09_TestTidyIfStrikeOn19butGutteredOn20]'
-      name: T09_TestTidyIfStrikeOn19butGutteredOn20
-      fullName: ActionManagerZTest.T09_TestTidyIfStrikeOn19butGutteredOn20
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T07Bowlspare3]'
+      name: T07Bowlspare3
+      fullName: ScoreDisplayTest.T07Bowlspare3
       resultStatus: 1
-      duration: 0.008489
+      duration: 0.004348
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T10_GutterThenSpareToEndTurnAndIncrement1]'
-      name: T10_GutterThenSpareToEndTurnAndIncrement1
-      fullName: ActionManagerZTest.T10_GutterThenSpareToEndTurnAndIncrement1
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T08BowlstrikeOnFirst]'
+      name: T08BowlstrikeOnFirst
+      fullName: ScoreDisplayTest.T08BowlstrikeOnFirst
       resultStatus: 1
-      duration: 0.008415
+      duration: 0.00404
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest][T11_3StrikesOnFinalFrame]'
-      name: T11_3StrikesOnFinalFrame
-      fullName: ActionManagerZTest.T11_3StrikesOnFinalFrame
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T09Bowlstrike1]'
+      name: T09Bowlstrike1
+      fullName: ScoreDisplayTest.T09Bowlstrike1
       resultStatus: 1
-      duration: 0.008179
+      duration: 0.003675
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T10Bowlstrike2]'
+      name: T10Bowlstrike2
+      fullName: ScoreDisplayTest.T10Bowlstrike2
+      resultStatus: 1
+      duration: 0.004296
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T11Bowlzero]'
+      name: T11Bowlzero
+      fullName: ScoreDisplayTest.T11Bowlzero
+      resultStatus: 1
+      duration: 0.004015
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T12BowlallGuttered]'
+      name: T12BowlallGuttered
+      fullName: ScoreDisplayTest.T12BowlallGuttered
+      resultStatus: 1
+      duration: 0.003445
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T13BowlallSpare]'
+      name: T13BowlallSpare
+      fullName: ScoreDisplayTest.T13BowlallSpare
+      resultStatus: 1
+      duration: 0.004302
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T14BowlallStrike]'
+      name: T14BowlallStrike
+      fullName: ScoreDisplayTest.T14BowlallStrike
+      resultStatus: 1
+      duration: 0.00425
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T15BowlalllastFrameStrikeAndSpare]'
+      name: T15BowlalllastFrameStrikeAndSpare
+      fullName: ScoreDisplayTest.T15BowlalllastFrameStrikeAndSpare
+      resultStatus: 1
+      duration: 0.003881
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T16Bowlall2StrikeAndSpareAtEnd]'
+      name: T16Bowlall2StrikeAndSpareAtEnd
+      fullName: ScoreDisplayTest.T16Bowlall2StrikeAndSpareAtEnd
+      resultStatus: 1
+      duration: 0.004259
       messages: 
       output: 
       stacktrace: 
@@ -997,9 +1075,9 @@ MonoBehaviour:
     - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest]'
       name: ScoreManagerTest
       fullName: ScoreManagerTest
-      resultStatus: 2
-      duration: 0.379781
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.460159
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1009,7 +1087,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ScoreManagerTest.T00PassingTest
       resultStatus: 1
-      duration: 0.005183
+      duration: 0.00378
       messages: 
       output: 
       stacktrace: 
@@ -1020,15 +1098,9 @@ MonoBehaviour:
       name: T01Bowl23
       fullName: ScoreManagerTest.T01Bowl23
       resultStatus: 1
-      duration: 0.013033
+      duration: 0.004078
       messages: 
-      output: 'First = 2
-
-        Second = 3
-
-        Total = 5
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1037,15 +1109,9 @@ MonoBehaviour:
       name: T02Bowl234
       fullName: ScoreManagerTest.T02Bowl234
       resultStatus: 1
-      duration: 0.006559
+      duration: 0.004022
       messages: 
-      output: 'First = 2
-
-        Second = 3
-
-        Total = 5
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1054,21 +1120,9 @@ MonoBehaviour:
       name: T03Bowl2345
       fullName: ScoreManagerTest.T03Bowl2345
       resultStatus: 1
-      duration: 0.008836
+      duration: 0.003788
       messages: 
-      output: 'First = 2
-
-        Second = 3
-
-        Total = 5
-
-        First = 4
-
-        Second = 5
-
-        Total = 9
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1077,21 +1131,9 @@ MonoBehaviour:
       name: T04Bowl23456
       fullName: ScoreManagerTest.T04Bowl23456
       resultStatus: 1
-      duration: 0.016178
+      duration: 0.00422
       messages: 
-      output: 'First = 2
-
-        Second = 3
-
-        Total = 5
-
-        First = 4
-
-        Second = 5
-
-        Total = 9
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1100,27 +1142,9 @@ MonoBehaviour:
       name: T05Bowl234561
       fullName: ScoreManagerTest.T05Bowl234561
       resultStatus: 1
-      duration: 0.011374
+      duration: 0.004068
       messages: 
-      output: 'First = 2
-
-        Second = 3
-
-        Total = 5
-
-        First = 4
-
-        Second = 5
-
-        Total = 9
-
-        First = 6
-
-        Second = 1
-
-        Total = 7
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1129,27 +1153,9 @@ MonoBehaviour:
       name: T06Bowl2345612
       fullName: ScoreManagerTest.T06Bowl2345612
       resultStatus: 1
-      duration: 0.01186
+      duration: 0.00411
       messages: 
-      output: 'First = 2
-
-        Second = 3
-
-        Total = 5
-
-        First = 4
-
-        Second = 5
-
-        Total = 9
-
-        First = 6
-
-        Second = 1
-
-        Total = 7
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1158,11 +1164,9 @@ MonoBehaviour:
       name: T07BowlX1
       fullName: ScoreManagerTest.T07BowlX1
       resultStatus: 1
-      duration: 0.004884
+      duration: 0.004323
       messages: 
-      output: 'Strike!
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1171,7 +1175,7 @@ MonoBehaviour:
       name: T08Bowl19
       fullName: ScoreManagerTest.T08Bowl19
       resultStatus: 1
-      duration: 0.004409
+      duration: 0.004069
       messages: 
       output: 
       stacktrace: 
@@ -1182,21 +1186,9 @@ MonoBehaviour:
       name: T09Bowl123455
       fullName: ScoreManagerTest.T09Bowl123455
       resultStatus: 1
-      duration: 0.008363
+      duration: 0.004308
       messages: 
-      output: 'First = 1
-
-        Second = 2
-
-        Total = 3
-
-        First = 3
-
-        Second = 4
-
-        Total = 7
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1205,27 +1197,9 @@ MonoBehaviour:
       name: T10SpareBonus
       fullName: ScoreManagerTest.T10SpareBonus
       resultStatus: 1
-      duration: 0.011213
+      duration: 0.004457
       messages: 
-      output: 'First = 1
-
-        Second = 2
-
-        Total = 3
-
-        First = 3
-
-        Second = 5
-
-        Total = 8
-
-        First = 3
-
-        Second = 3
-
-        Total = 6
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1234,33 +1208,9 @@ MonoBehaviour:
       name: T11SpareBonus2
       fullName: ScoreManagerTest.T11SpareBonus2
       resultStatus: 1
-      duration: 0.013327
+      duration: 0.004631
       messages: 
-      output: 'First = 1
-
-        Second = 2
-
-        Total = 3
-
-        First = 3
-
-        Second = 5
-
-        Total = 8
-
-        First = 3
-
-        Second = 3
-
-        Total = 6
-
-        First = 7
-
-        Second = 1
-
-        Total = 8
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1268,94 +1218,22 @@ MonoBehaviour:
     - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T12StrikeBonus]'
       name: T12StrikeBonus
       fullName: ScoreManagerTest.T12StrikeBonus
-      resultStatus: 2
-      duration: 0.011676
-      messages: 'System.ArgumentOutOfRangeException : Argument is out of range.
-
-        Parameter name: index'
-      output: 'Strike!
-
-        strikeBonus = 7
-
-        First = 3
-
-        Second = 4
-
-        Total = 7
-
-'
-      stacktrace: "  at System.Collections.Generic.List`1[System.Int32].get_Item (Int32
-        index) [0x0000c] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633
-        \n  at ScoreManager.ScoreFrames (System.Collections.Generic.List`1 rolls)
-        [0x0001a] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Scripts/ScoreManager.cs:29
-        \n  at ScoreManagerTest.T12StrikeBonus () [0x0002f] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Editor/ScoreMasterTest.cs:98
-        \n  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke
-        (object,object[],System.Exception&)\n  at System.Reflection.MonoMethod.Invoke
-        (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder,
-        System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d0]
-        in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 "
+      resultStatus: 1
+      duration: 0.003985
+      messages: 
+      output: 
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
     - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T13StrikeBonus3]'
       name: T13StrikeBonus3
       fullName: ScoreManagerTest.T13StrikeBonus3
-      resultStatus: 2
-      duration: 0.01597
-      messages: 'System.ArgumentOutOfRangeException : Argument is out of range.
-
-        Parameter name: index'
-      output: 'First = 1
-
-        Second = 2
-
-        Total = 3
-
-        First = 3
-
-        Second = 4
-
-        Total = 7
-
-        First = 5
-
-        Second = 4
-
-        Total = 9
-
-        First = 3
-
-        Second = 2
-
-        Total = 5
-
-        Strike!
-
-        strikeBonus = 4
-
-        First = 1
-
-        Second = 3
-
-        Total = 4
-
-        First = 3
-
-        Second = 4
-
-        Total = 7
-
-'
-      stacktrace: "  at System.Collections.Generic.List`1[System.Int32].get_Item (Int32
-        index) [0x0000c] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633
-        \n  at ScoreManager.ScoreFrames (System.Collections.Generic.List`1 rolls)
-        [0x0001a] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Scripts/ScoreManager.cs:29
-        \n  at ScoreManagerTest.T13StrikeBonus3 () [0x00032] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Editor/ScoreMasterTest.cs:105
-        \n  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke
-        (object,object[],System.Exception&)\n  at System.Reflection.MonoMethod.Invoke
-        (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder,
-        System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d0]
-        in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 "
+      resultStatus: 1
+      duration: 0.004144
+      messages: 
+      output: 
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1363,23 +1241,9 @@ MonoBehaviour:
       name: T14MultiStrikes
       fullName: ScoreManagerTest.T14MultiStrikes
       resultStatus: 1
-      duration: 0.009271
+      duration: 0.004159
       messages: 
-      output: 'Strike!
-
-        strikeBonus = 12
-
-        Strike!
-
-        strikeBonus = 5
-
-        First = 2
-
-        Second = 3
-
-        Total = 5
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1387,46 +1251,11 @@ MonoBehaviour:
     - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T15MultiStrikes3]'
       name: T15MultiStrikes3
       fullName: ScoreManagerTest.T15MultiStrikes3
-      resultStatus: 2
-      duration: 0.012507
-      messages: 'System.ArgumentOutOfRangeException : Argument is out of range.
-
-        Parameter name: index'
-      output: 'Strike!
-
-        strikeBonus = 12
-
-        Strike!
-
-        strikeBonus = 5
-
-        First = 2
-
-        Second = 3
-
-        Total = 5
-
-        Strike!
-
-        strikeBonus = 8
-
-        First = 5
-
-        Second = 3
-
-        Total = 8
-
-'
-      stacktrace: "  at System.Collections.Generic.List`1[System.Int32].get_Item (Int32
-        index) [0x0000c] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633
-        \n  at ScoreManager.ScoreFrames (System.Collections.Generic.List`1 rolls)
-        [0x0001a] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Scripts/ScoreManager.cs:29
-        \n  at ScoreManagerTest.T15MultiStrikes3 () [0x00031] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Editor/ScoreMasterTest.cs:119
-        \n  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke
-        (object,object[],System.Exception&)\n  at System.Reflection.MonoMethod.Invoke
-        (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder,
-        System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d0]
-        in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 "
+      resultStatus: 1
+      duration: 0.004021
+      messages: 
+      output: 
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1434,101 +1263,141 @@ MonoBehaviour:
       name: T16TestGutterGame
       fullName: ScoreManagerTest.T16TestGutterGame
       resultStatus: 1
-      duration: 0.025836
+      duration: 0.00381
       messages: 
-      output: 'First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-        First = 0
-
-        Second = 0
-
-        Total = 0
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: "T15MultiStrikes3 (0.013s)\n---\nSystem.ArgumentOutOfRangeException
-      : Argument is out of range.\nParameter name: index\n---\nat System.Collections.Generic.List`1[System.Int32].get_Item
-      (Int32 index) [0x0000c] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633
-      \n  at ScoreManager.ScoreFrames (System.Collections.Generic.List`1 rolls) [0x0001a]
-      in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Scripts/ScoreManager.cs:29
-      \n  at ScoreManagerTest.T15MultiStrikes3 () [0x00031] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Editor/ScoreMasterTest.cs:119
-      \n  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke
-      (object,object[],System.Exception&)\n  at System.Reflection.MonoMethod.Invoke
-      (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder,
-      System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d0]
-      in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222\n---\nStrike!\nstrikeBonus
-      = 12\nStrike!\nstrikeBonus = 5\nFirst = 2\nSecond = 3\nTotal = 5\nStrike!\nstrikeBonus
-      = 8\nFirst = 5\nSecond = 3\nTotal = 8"
-    m_ResultStacktrace: "  at System.Collections.Generic.List`1[System.Int32].get_Item
-      (Int32 index) [0x0000c] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633
-      \n  at ScoreManager.ScoreFrames (System.Collections.Generic.List`1 rolls) [0x0001a]
-      in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Scripts/ScoreManager.cs:29
-      \n  at ScoreManagerTest.T15MultiStrikes3 () [0x00031] in /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Assets/Editor/ScoreMasterTest.cs:119
-      \n  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke
-      (object,object[],System.Exception&)\n  at System.Reflection.MonoMethod.Invoke
-      (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder,
-      System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d0]
-      in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222 "
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T17TestAllOnes]'
+      name: T17TestAllOnes
+      fullName: ScoreManagerTest.T17TestAllOnes
+      resultStatus: 1
+      duration: 0.00411
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T18TestAllStrikes]'
+      name: T18TestAllStrikes
+      fullName: ScoreManagerTest.T18TestAllStrikes
+      resultStatus: 1
+      duration: 0.00414
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T19TestImmediateStrikeBonus]'
+      name: T19TestImmediateStrikeBonus
+      fullName: ScoreManagerTest.T19TestImmediateStrikeBonus
+      resultStatus: 1
+      duration: 0.003731
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T20SpareInLastFrame]'
+      name: T20SpareInLastFrame
+      fullName: ScoreManagerTest.T20SpareInLastFrame
+      resultStatus: 1
+      duration: 0.004087
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T21StrikeInLastFrame]'
+      name: T21StrikeInLastFrame
+      fullName: ScoreManagerTest.T21StrikeInLastFrame
+      resultStatus: 1
+      duration: 0.00391
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG02GoldenCopyA]'
+      name: TG02GoldenCopyA
+      fullName: ScoreManagerTest.TG02GoldenCopyA
+      resultStatus: 1
+      duration: 0.004184
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB1of3]'
+      name: TG03GoldenCopyB1of3
+      fullName: ScoreManagerTest.TG03GoldenCopyB1of3
+      resultStatus: 1
+      duration: 0.004199
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB2of3]'
+      name: TG03GoldenCopyB2of3
+      fullName: ScoreManagerTest.TG03GoldenCopyB2of3
+      resultStatus: 1
+      duration: 0.004016
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB3of3]'
+      name: TG03GoldenCopyB3of3
+      fullName: ScoreManagerTest.TG03GoldenCopyB3of3
+      resultStatus: 1
+      duration: 0.004258
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyC1of3]'
+      name: TG03GoldenCopyC1of3
+      fullName: ScoreManagerTest.TG03GoldenCopyC1of3
+      resultStatus: 1
+      duration: 0.0039
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyC2of3]'
+      name: TG03GoldenCopyC2of3
+      fullName: ScoreManagerTest.TG03GoldenCopyC2of3
+      resultStatus: 1
+      duration: 0.004326
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T01_onStrikeReturnsEndTurn (0.008s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 428375c2
-      m_LastClickedID: -1032486078
-      m_ExpandedIDs: de19bd99539912bbd1ec9dbc9e2c135fffffff7f
+      m_SelectedIDs: 1d5e4fa6
+      m_LastClickedID: -1504748003
+      m_ExpandedIDs: de19bd99d1ec9dbcabd366e09e2c135fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

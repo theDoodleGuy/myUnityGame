@@ -15,13 +15,12 @@ public class DragLaunch : MonoBehaviour
 		ball = GetComponent<Ball>();
 	}
 
-	public void MoveStart (float xNudge)
-	{
-		//Nudge ball if not in play
-		if (!ball.ballInPlay) {
-			Vector3 pos = new Vector3(Mathf.Clamp(transform.position.x, xMin,xMax),transform.position.y,transform.position.z);
-			transform.position = pos;
-			transform.Translate(xNudge,0,0);
+	public void MoveStart (float amount) {
+		if ( ! ball.ballInPlay) {
+			float xPos = Mathf.Clamp(ball.transform.position.x + amount, -50f, 50f);
+			float yPos = ball.transform.position.y;
+			float zPos = ball.transform.position.z;
+			ball.transform.position = new Vector3 (xPos, yPos, zPos);
 		}
 	}
 
