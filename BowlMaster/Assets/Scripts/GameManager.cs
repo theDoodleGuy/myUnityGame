@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 		try {
 			rolls.Add (pinFall);
 			ball.Reset ();
-			pinsetter.PinSetterAction (ActionManager.NextAction (rolls));
+			pinsetter.PinSetterAction (ActionManager.NextAction (rolls[rolls.Count -1]));
 		} catch {
 			Debug.LogWarning("Something went wrong with Bowl()");
 		}

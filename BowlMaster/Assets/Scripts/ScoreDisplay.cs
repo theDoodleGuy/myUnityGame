@@ -25,21 +25,19 @@ public class ScoreDisplay : MonoBehaviour
 	public static string FormatRolls (List<int> rolls)
 	{
 		string output = "";
-		for (int i = 0; i < rolls.Count; i += 2) {
-			if (rolls [i] == 10) {
+		for (int i = 0; i < rolls.Count; i++) {
+			int box = output.Length + 1;							// Score box 1 to 21 
+
+			if (rolls[i] == 0) {									// Always enter 0 as -
+				output += "-";
+			} else if ((box % 2 == 0 || box == 21) && rolls[i-1]+rolls[i] == 10) {	// SPARE
+				output += "/";	
+			} else if (box >= 19 && rolls[i] == 10)	{				// STRIKE in frame 10
 				output += "X";
-				if (output.Length < 19) {
-					output += " ";
-				}
-				i--;
-			} else if (i + 1 < rolls.Count) {
-				if (rolls [i] + rolls [i + 1] == 10) {
-					output += rolls [i].ToString () + "/";
-				} else {
-					output += rolls [i].ToString () + rolls [i + 1].ToString ();
-				}
+			} else if (rolls[i] == 10) {							// STRIKE in frame 1-9
+				output += "X ";
 			} else {
-				output += rolls [i].ToString ();
+				output += rolls[i].ToString();						// Normal 1-9 bowl
 			}
 		}
 		return output;

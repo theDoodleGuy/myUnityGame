@@ -78,3 +78,7 @@
 /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Temp/bin/Debug/UnityEditor.Timeline.dll
+/Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Temp/bin/Debug/Unity.Legacy.NRefactory.dll

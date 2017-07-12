@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -65,7 +65,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 852
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -128,10 +128,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 802
-  m_MinSize: {x: 504, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 679, y: 321}
+  m_MaxSize: {x: 12004, y: 8021}
   vertical: 0
-  controlID: 23
+  controlID: 76
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 0
     width: 1069
     height: 802
-  m_MinSize: {x: 404, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 404, y: 321}
+  m_MaxSize: {x: 8004, y: 8021}
   vertical: 1
-  controlID: 24
+  controlID: 77
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 25
+  controlID: 53
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,15 +250,15 @@ MonoBehaviour:
     y: 531
     width: 1069
     height: 271
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,14 +277,14 @@ MonoBehaviour:
     y: 0
     width: 371
     height: 802
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,23 +389,23 @@ MonoBehaviour:
     height: 510
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64530100
-    m_LastClickedID: 86884
-    m_ExpandedIDs: 4649fafff249faff604cfaff5050faff3454faff7656faff4c5bfaff925dfafff663faff0ab2faffc8b2faff5ebafaff1cbbfaff64c1faff2cc2faff3ec9faffa2defaff68dffaff3ce7faffc8e7faff3cf7faffda12fbff7013fbff4016fbff5019fbff221dfbff4a25fbff8226fbff402dfbff2035fbffa43afbff3a3dfbff4c4efbffb84ffbff2c6ffbfff86ffbffc27bfbff927cfbff3287fbff448dfbffa290fbff1494fbff20d2fbffd4d2fbff1ca7fdff02a8fdff2867feff1468feff446ffeffae7afeffbca1feff24a9feff26b7feffd8c1feffc2d6feffe8e6feffdae7feffe2ecfeff2ef9feff5efefeffde1fffff6e22ffff462affff70d4ffff48d5fffff0d9ffffaadfffffe8e4ffffd6e9ffffc2efffff2af6ffffdefbffff00000000a4340000c0350000e482000064830000b083000082a3000026a40000eecc000044ef0000280601006e2e0100ee2e0100382f0100ea2f0100
+    m_SelectedIDs: e42b0000
+    m_LastClickedID: 11236
+    m_ExpandedIDs: a0f1ffff32f2fffff4f5ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Lane
-      m_OriginalName: Lane
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 41782
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.050249916, y: -0.93793243, z: 0.15358657, w: 0.3068693}
     speed: 2
-    m_Value: {x: 0.05024992, y: -0.9379325, z: 0.15358658, w: 0.30686933}
+    m_Value: {x: -0.05024992, y: 0.9379325, z: -0.15358658, w: -0.30686933}
   m_Size:
     m_Target: 1710.3881
     speed: 2
@@ -548,6 +548,7 @@ MonoBehaviour:
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
+    m_SoftLockControlStates: []
     m_ReferencingInstanceIDs: 
     m_ScenePaths: []
     m_ShowAllHits: 0
@@ -563,9 +564,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68250000
-    m_LastClickedID: 9576
-    m_ExpandedIDs: 00000000dc240000ac250000a4280000a6280000a8280000aa280000ac280000ffffff7f
+    m_SelectedIDs: 6e280000
+    m_LastClickedID: 10350
+    m_ExpandedIDs: 000000005a28000086280000b42a0000b62a0000b82a0000ba2a0000bc2a0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,7 +594,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 21}
     m_SelectedIDs: 827afeff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc240000ac250000a4280000a6280000a8280000aa280000ac280000
+    m_ExpandedIDs: 000000005a28000086280000b42a0000b62a0000b82a0000ba2a0000bc2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -618,8 +619,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 62050000
+    m_LastClickedInstanceID: 1378
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 7c6dfeff7a2b000052280000502b0000262600009429000082260000f8240000fc240000
     m_RenameOverlay:
@@ -697,7 +698,6 @@ MonoBehaviour:
   blendTreeGraph: {fileID: 0}
   blendTreeGraphGUI: {fileID: 0}
   m_AutoLiveLink: 1
-  m_LiveLinkFollowTransitions: 0
   m_MiniTool: 0
   m_SerializedLocked: 0
   m_CurrentEditor: 1
@@ -852,361 +852,207 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll]'
+    - id: '[Assembly-CSharp-Editor.dll]'
       name: Assembly-CSharp-Editor.dll
-      fullName: /Users/paulmooney/Unity Work/Udemy course/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      fullName: /Users/paulmooney/Documents/GitHub/myUnityGameRepo/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 1.003888
+      duration: 0.736192
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ActionManagerZTest]'
-      name: ActionManagerZTest
-      fullName: ActionManagerZTest
-      resultStatus: 1
-      duration: 0.224274
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest]'
       name: ScoreDisplayTest
       fullName: ScoreDisplayTest
       resultStatus: 1
-      duration: 0.268279
+      duration: 0.253624
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T00PassingTest]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T00PassingTest]'
       name: T00PassingTest
       fullName: ScoreDisplayTest.T00PassingTest
       resultStatus: 1
-      duration: 0.003781
+      duration: 0.012311
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T01Bowl1]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T01Bowl1]'
       name: T01Bowl1
       fullName: ScoreDisplayTest.T01Bowl1
       resultStatus: 1
-      duration: 0.004304
+      duration: 0.005214
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T02Bowl12]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T02Bowl12]'
       name: T02Bowl12
       fullName: ScoreDisplayTest.T02Bowl12
       resultStatus: 1
-      duration: 0.004092
+      duration: 0.008596
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T03Bowl123]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T03Bowl123]'
       name: T03Bowl123
       fullName: ScoreDisplayTest.T03Bowl123
       resultStatus: 1
-      duration: 0.003898
+      duration: 0.003707
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T04Bowl1234]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T04Bowl1234]'
       name: T04Bowl1234
       fullName: ScoreDisplayTest.T04Bowl1234
       resultStatus: 1
-      duration: 0.004305
+      duration: 0.004031
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T05BowlspareOnFirst]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T05BowlspareOnFirst]'
       name: T05BowlspareOnFirst
       fullName: ScoreDisplayTest.T05BowlspareOnFirst
       resultStatus: 1
-      duration: 0.004143
+      duration: 0.004788
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T06Bowlspare2]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T06Bowlspare2]'
       name: T06Bowlspare2
       fullName: ScoreDisplayTest.T06Bowlspare2
       resultStatus: 1
-      duration: 0.003935
+      duration: 0.004634
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T07Bowlspare3]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T07Bowlspare3]'
       name: T07Bowlspare3
       fullName: ScoreDisplayTest.T07Bowlspare3
       resultStatus: 1
-      duration: 0.004348
+      duration: 0.003894
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T08BowlstrikeOnFirst]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T08BowlstrikeOnFirst]'
       name: T08BowlstrikeOnFirst
       fullName: ScoreDisplayTest.T08BowlstrikeOnFirst
       resultStatus: 1
-      duration: 0.00404
+      duration: 0.004851
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T09Bowlstrike1]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T09Bowlstrike1]'
       name: T09Bowlstrike1
       fullName: ScoreDisplayTest.T09Bowlstrike1
       resultStatus: 1
-      duration: 0.003675
+      duration: 0.003924
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T10Bowlstrike2]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T10Bowlstrike2]'
       name: T10Bowlstrike2
       fullName: ScoreDisplayTest.T10Bowlstrike2
       resultStatus: 1
-      duration: 0.004296
+      duration: 0.008296
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T11Bowlzero]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T11Bowlzero]'
       name: T11Bowlzero
       fullName: ScoreDisplayTest.T11Bowlzero
       resultStatus: 1
-      duration: 0.004015
+      duration: 0.00462
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T12BowlallGuttered]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T12BowlallGuttered]'
       name: T12BowlallGuttered
       fullName: ScoreDisplayTest.T12BowlallGuttered
       resultStatus: 1
-      duration: 0.003445
+      duration: 0.004718
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T13BowlallSpare]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T13BowlallSpare]'
       name: T13BowlallSpare
       fullName: ScoreDisplayTest.T13BowlallSpare
       resultStatus: 1
-      duration: 0.004302
+      duration: 0.004689
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T14BowlallStrike]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T14BowlallStrike]'
       name: T14BowlallStrike
       fullName: ScoreDisplayTest.T14BowlallStrike
       resultStatus: 1
-      duration: 0.00425
+      duration: 0.0041
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T15BowlalllastFrameStrikeAndSpare]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T15BowlalllastFrameStrikeAndSpare]'
       name: T15BowlalllastFrameStrikeAndSpare
       fullName: ScoreDisplayTest.T15BowlalllastFrameStrikeAndSpare
       resultStatus: 1
-      duration: 0.003881
+      duration: 0.003822
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T16Bowlall2StrikeAndSpareAtEnd]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreDisplayTest][T16Bowlall2StrikeAndSpareAtEnd]'
       name: T16Bowlall2StrikeAndSpareAtEnd
       fullName: ScoreDisplayTest.T16Bowlall2StrikeAndSpareAtEnd
-      resultStatus: 1
-      duration: 0.004259
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest]'
-      name: ScoreManagerTest
-      fullName: ScoreManagerTest
-      resultStatus: 1
-      duration: 0.460159
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T00PassingTest]'
-      name: T00PassingTest
-      fullName: ScoreManagerTest.T00PassingTest
-      resultStatus: 1
-      duration: 0.00378
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T01Bowl23]'
-      name: T01Bowl23
-      fullName: ScoreManagerTest.T01Bowl23
-      resultStatus: 1
-      duration: 0.004078
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T02Bowl234]'
-      name: T02Bowl234
-      fullName: ScoreManagerTest.T02Bowl234
-      resultStatus: 1
-      duration: 0.004022
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T03Bowl2345]'
-      name: T03Bowl2345
-      fullName: ScoreManagerTest.T03Bowl2345
-      resultStatus: 1
-      duration: 0.003788
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T04Bowl23456]'
-      name: T04Bowl23456
-      fullName: ScoreManagerTest.T04Bowl23456
-      resultStatus: 1
-      duration: 0.00422
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T05Bowl234561]'
-      name: T05Bowl234561
-      fullName: ScoreManagerTest.T05Bowl234561
-      resultStatus: 1
-      duration: 0.004068
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T06Bowl2345612]'
-      name: T06Bowl2345612
-      fullName: ScoreManagerTest.T06Bowl2345612
-      resultStatus: 1
-      duration: 0.00411
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T07BowlX1]'
-      name: T07BowlX1
-      fullName: ScoreManagerTest.T07BowlX1
-      resultStatus: 1
-      duration: 0.004323
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T08Bowl19]'
-      name: T08Bowl19
-      fullName: ScoreManagerTest.T08Bowl19
-      resultStatus: 1
-      duration: 0.004069
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T09Bowl123455]'
-      name: T09Bowl123455
-      fullName: ScoreManagerTest.T09Bowl123455
-      resultStatus: 1
-      duration: 0.004308
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T10SpareBonus]'
-      name: T10SpareBonus
-      fullName: ScoreManagerTest.T10SpareBonus
-      resultStatus: 1
-      duration: 0.004457
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T11SpareBonus2]'
-      name: T11SpareBonus2
-      fullName: ScoreManagerTest.T11SpareBonus2
       resultStatus: 1
       duration: 0.004631
       messages: 
@@ -1215,20 +1061,207 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T12StrikeBonus]'
-      name: T12StrikeBonus
-      fullName: ScoreManagerTest.T12StrikeBonus
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest]'
+      name: ScoreManagerTest
+      fullName: ScoreManagerTest
       resultStatus: 1
-      duration: 0.003985
+      duration: 0.420028
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T13StrikeBonus3]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T00PassingTest]'
+      name: T00PassingTest
+      fullName: ScoreManagerTest.T00PassingTest
+      resultStatus: 1
+      duration: 0.004203
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T01Bowl23]'
+      name: T01Bowl23
+      fullName: ScoreManagerTest.T01Bowl23
+      resultStatus: 1
+      duration: 0.006635
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T02Bowl234]'
+      name: T02Bowl234
+      fullName: ScoreManagerTest.T02Bowl234
+      resultStatus: 1
+      duration: 0.007084
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T03Bowl2345]'
+      name: T03Bowl2345
+      fullName: ScoreManagerTest.T03Bowl2345
+      resultStatus: 1
+      duration: 0.003913
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T04Bowl23456]'
+      name: T04Bowl23456
+      fullName: ScoreManagerTest.T04Bowl23456
+      resultStatus: 1
+      duration: 0.004982
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T05Bowl234561]'
+      name: T05Bowl234561
+      fullName: ScoreManagerTest.T05Bowl234561
+      resultStatus: 1
+      duration: 0.004274
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T06Bowl2345612]'
+      name: T06Bowl2345612
+      fullName: ScoreManagerTest.T06Bowl2345612
+      resultStatus: 1
+      duration: 0.005065
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T07BowlX1]'
+      name: T07BowlX1
+      fullName: ScoreManagerTest.T07BowlX1
+      resultStatus: 1
+      duration: 0.006674
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T08Bowl19]'
+      name: T08Bowl19
+      fullName: ScoreManagerTest.T08Bowl19
+      resultStatus: 1
+      duration: 0.004071
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T09Bowl123455]'
+      name: T09Bowl123455
+      fullName: ScoreManagerTest.T09Bowl123455
+      resultStatus: 1
+      duration: 0.003959
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T10SpareBonus]'
+      name: T10SpareBonus
+      fullName: ScoreManagerTest.T10SpareBonus
+      resultStatus: 1
+      duration: 0.003809
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T11SpareBonus2]'
+      name: T11SpareBonus2
+      fullName: ScoreManagerTest.T11SpareBonus2
+      resultStatus: 1
+      duration: 0.009304
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T12StrikeBonus]'
+      name: T12StrikeBonus
+      fullName: ScoreManagerTest.T12StrikeBonus
+      resultStatus: 1
+      duration: 0.003988
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T13StrikeBonus3]'
       name: T13StrikeBonus3
       fullName: ScoreManagerTest.T13StrikeBonus3
+      resultStatus: 1
+      duration: 0.004715
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T14MultiStrikes]'
+      name: T14MultiStrikes
+      fullName: ScoreManagerTest.T14MultiStrikes
+      resultStatus: 1
+      duration: 0.003758
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T15MultiStrikes3]'
+      name: T15MultiStrikes3
+      fullName: ScoreManagerTest.T15MultiStrikes3
+      resultStatus: 1
+      duration: 0.005435
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T16TestGutterGame]'
+      name: T16TestGutterGame
+      fullName: ScoreManagerTest.T16TestGutterGame
+      resultStatus: 1
+      duration: 0.004612
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T17TestAllOnes]'
+      name: T17TestAllOnes
+      fullName: ScoreManagerTest.T17TestAllOnes
       resultStatus: 1
       duration: 0.004144
       messages: 
@@ -1237,154 +1270,110 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T14MultiStrikes]'
-      name: T14MultiStrikes
-      fullName: ScoreManagerTest.T14MultiStrikes
-      resultStatus: 1
-      duration: 0.004159
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T15MultiStrikes3]'
-      name: T15MultiStrikes3
-      fullName: ScoreManagerTest.T15MultiStrikes3
-      resultStatus: 1
-      duration: 0.004021
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T16TestGutterGame]'
-      name: T16TestGutterGame
-      fullName: ScoreManagerTest.T16TestGutterGame
-      resultStatus: 1
-      duration: 0.00381
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T17TestAllOnes]'
-      name: T17TestAllOnes
-      fullName: ScoreManagerTest.T17TestAllOnes
-      resultStatus: 1
-      duration: 0.00411
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T18TestAllStrikes]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T18TestAllStrikes]'
       name: T18TestAllStrikes
       fullName: ScoreManagerTest.T18TestAllStrikes
       resultStatus: 1
-      duration: 0.00414
+      duration: 0.004675
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T19TestImmediateStrikeBonus]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T19TestImmediateStrikeBonus]'
       name: T19TestImmediateStrikeBonus
       fullName: ScoreManagerTest.T19TestImmediateStrikeBonus
       resultStatus: 1
-      duration: 0.003731
+      duration: 0.003846
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T20SpareInLastFrame]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T20SpareInLastFrame]'
       name: T20SpareInLastFrame
       fullName: ScoreManagerTest.T20SpareInLastFrame
       resultStatus: 1
-      duration: 0.004087
+      duration: 0.009799
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][T21StrikeInLastFrame]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][T21StrikeInLastFrame]'
       name: T21StrikeInLastFrame
       fullName: ScoreManagerTest.T21StrikeInLastFrame
       resultStatus: 1
-      duration: 0.00391
+      duration: 0.003553
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG02GoldenCopyA]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][TG02GoldenCopyA]'
       name: TG02GoldenCopyA
       fullName: ScoreManagerTest.TG02GoldenCopyA
       resultStatus: 1
-      duration: 0.004184
+      duration: 0.004874
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB1of3]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB1of3]'
       name: TG03GoldenCopyB1of3
       fullName: ScoreManagerTest.TG03GoldenCopyB1of3
       resultStatus: 1
-      duration: 0.004199
+      duration: 0.004205
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB2of3]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB2of3]'
       name: TG03GoldenCopyB2of3
       fullName: ScoreManagerTest.TG03GoldenCopyB2of3
       resultStatus: 1
-      duration: 0.004016
+      duration: 0.005619
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB3of3]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyB3of3]'
       name: TG03GoldenCopyB3of3
       fullName: ScoreManagerTest.TG03GoldenCopyB3of3
       resultStatus: 1
-      duration: 0.004258
+      duration: 0.000416
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyC1of3]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyC1of3]'
       name: TG03GoldenCopyC1of3
       fullName: ScoreManagerTest.TG03GoldenCopyC1of3
       resultStatus: 1
-      duration: 0.0039
+      duration: 0.004411
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[BowlMaster][Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyC2of3]'
+    - id: '[Assembly-CSharp-Editor.dll][ScoreManagerTest][TG03GoldenCopyC2of3]'
       name: TG03GoldenCopyC2of3
       fullName: ScoreManagerTest.TG03GoldenCopyC2of3
       resultStatus: 1
-      duration: 0.004326
+      duration: 0.0041
       messages: 
       output: 
       stacktrace: 

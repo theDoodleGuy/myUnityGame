@@ -53,7 +53,7 @@ public class ScoreDisplayTest {
 	[Test]
 	public void T07Bowlspare3 () {
 		int[] rolls = {1,2, 3,4, 2,8, 5,5, 2,0, 7};
-		string rollsString = "12342/5/207";
+		string rollsString = "12342/5/2-7";
 		Assert.AreEqual (rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
 	}
 	[Test]
@@ -77,13 +77,13 @@ public class ScoreDisplayTest {
 	[Test]
 	public void T11Bowlzero () {
 		int[] rolls = {0};
-		string rollsString = "0";
+		string rollsString = "-";
 		Assert.AreEqual (rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
 	}
 	[Test]
 	public void T12BowlallGuttered () {
 		int[] rolls = {0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0};
-		string rollsString = "00000000000000000000";
+		string rollsString = "--------------------";
 		Assert.AreEqual (rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
 	}
 	[Test]

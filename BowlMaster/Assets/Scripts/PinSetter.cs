@@ -20,16 +20,13 @@ public class PinSetter : MonoBehaviour
 		switch (myAction)
 		{
 			case ActionManager.MyAction.Tidy:
-				Debug.Log("TIDY");
 				anim.SetTrigger("tidyPinsTrigger");
 				break;
 			case ActionManager.MyAction.Reset:
-				Debug.Log("RESET");
 				anim.SetTrigger("resetPinsTrigger");
 				pinCounter.Reset();
 				break;
 			case ActionManager.MyAction.EndTurn:
-				Debug.Log("ENDTURN");
 				anim.SetTrigger("resetPinsTrigger");
 				pinCounter.Reset();
 				break;
